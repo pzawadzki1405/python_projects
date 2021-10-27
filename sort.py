@@ -18,8 +18,8 @@ def sortowanie(numbers):
     pom = 0
     while i < 9:
         if numbers[i+1] > numbers[i]:
-            numbers[i] = pom
             numbers[i+1] = numbers[i]
+            numbers[i] = pom
             numbers[i] = pom
         i=i+1
     return numbers
